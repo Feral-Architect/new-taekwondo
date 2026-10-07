@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071018">
+  <meta name="description" content="">
+  <title>Segamat Taekwondo & Martial Arts Centre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="nav.skip">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Segamat Taekwondo home">
+      <img data-bind="brand.crest" alt="">
+      <span class="brand-copy"><strong data-bind="brand.legal"></strong><small data-bind="brand.name"></small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about" data-i18n="nav.about"></a><a href="#programs" data-i18n="nav.programs"></a><a href="#schedule" data-i18n="nav.schedule"></a><a href="#instructors" data-i18n="nav.instructors"></a><a href="#venue" data-i18n="nav.venue"></a><a href="#faq" data-i18n="nav.faq"></a>
+    </nav>
+    <div class="header-actions"><div class="lang-switcher" data-lang-switcher></div><button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span><b data-i18n="nav.menu"></b></button></div>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true"><nav><a href="#about" data-i18n="nav.about"></a><a href="#programs" data-i18n="nav.programs"></a><a href="#schedule" data-i18n="nav.schedule"></a><a href="#instructors" data-i18n="nav.instructors"></a><a href="#venue" data-i18n="nav.venue"></a><a href="#faq" data-i18n="nav.faq"></a><a class="mobile-cta" href="#contact" data-i18n="nav.contact"></a></nav></div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <picture class="hero-media"><source media="(min-width: 800px)" data-hero-landscape><img data-hero-portrait alt="Two taekwondo practitioners sparring"></picture>
+      <div class="hero-overlay"></div><div class="hero-grid"></div>
+      <div class="hero-content wrap"><p class="kicker" data-i18n="hero.eyebrow"></p><h1 data-i18n="hero.title"></h1><p class="hero-subtitle" data-i18n="hero.subtitle"></p><div class="hero-actions"><a class="btn btn-primary" href="#contact" data-i18n="hero.primary"></a><a class="btn btn-ghost" href="#schedule" data-i18n="hero.secondary"></a></div><div class="hero-badges"><span><b>04</b><em data-i18n="hero.badgeAge"></em></span><span><b>04</b><em data-i18n="hero.badgeDays"></em></span></div></div>
+      <a class="scroll-cue" href="#about"><span></span><small data-i18n="hero.scroll"></small></a>
+    </section>
+
+    <section class="section intro-section" id="about"><div class="wrap split-head"><div><p class="kicker" data-i18n="about.eyebrow"></p><h2 data-i18n="about.title"></h2></div><p class="lead" data-i18n="about.lead"></p></div><div class="wrap feature-grid" data-features></div></section>
+
+    <section class="section programmes-section" id="programs"><div class="wrap section-heading"><p class="kicker" data-i18n="programs.eyebrow"></p><h2 data-i18n="programs.title"></h2><p class="lead" data-i18n="programs.lead"></p></div><div class="wrap programme-grid" data-programs></div></section>
+
+    <section class="section schedule-section" id="schedule"><div class="wrap schedule-layout"><div><p class="kicker" data-i18n="schedule.eyebrow"></p><h2 data-i18n="schedule.title"></h2><p class="lead" data-i18n="schedule.lead"></p><div class="schedule-notes"><h3 data-i18n="schedule.notesTitle"></h3><ul data-notes></ul></div></div><div class="schedule-card"><div class="schedule-table" data-schedule></div><div class="schedule-info"><p data-i18n="schedule.infoTitle"></p><div data-contact-mini></div></div></div></div></section>
+
+    <section class="section instructors-section" id="instructors"><div class="wrap section-heading"><p class="kicker" data-i18n="instructors.eyebrow"></p><h2 data-i18n="instructors.title"></h2><p class="lead" data-i18n="instructors.lead"></p></div><div class="wrap instructor-grid" data-instructors></div></section>
+
+    <section class="venue-section" id="venue"><div class="venue-image"><img data-src="assets/img/dojo-hall.jpg" alt="Training hall interior"></div><div class="venue-copy wrap"><p class="kicker" data-i18n="venue.eyebrow"></p><h2 data-i18n="venue.title"></h2><p class="lead" data-i18n="venue.lead"></p><div class="venue-facts"><div><small data-i18n="venue.floorLabel"></small><b data-bind="venue.floor"></b></div><div><small data-i18n="venue.buildingLabel"></small><b data-bind="venue.building"></b></div><div><small data-i18n="venue.addressLabel"></small><b data-venue-address></b></div></div><a class="btn btn-primary" data-bind-href="venue.mapUrl" target="_blank" rel="noopener" data-i18n="venue.map"></a><div class="social-row"><span data-i18n="venue.followLabel"></span><div data-socials></div></div></div></section>
+
+    <section class="section faq-section" id="faq"><div class="wrap faq-layout"><div><p class="kicker" data-i18n="faq.eyebrow"></p><h2 data-i18n="faq.title"></h2></div><div class="faq-list" data-faq></div></div></section>
+    <section class="section terms-section"><div class="wrap terms-card"><div><p class="kicker" data-i18n="terms.eyebrow"></p><h2 data-i18n="terms.title"></h2><p class="lead" data-i18n="terms.lead"></p></div><ol data-terms></ol><div class="reg"><span data-i18n="terms.regLabel"></span><strong data-bind="brand.reg"></strong></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="wrap contact-card"><div><p class="kicker" data-i18n="contact.eyebrow"></p><h2 data-i18n="contact.title"></h2><p class="lead" data-i18n="contact.lead"></p></div><div class="contact-options" data-contact-options></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-grid"><div class="footer-brand"><img data-bind="brand.crest" alt=""><strong data-bind="brand.legal"></strong><p data-i18n="footer.tagline"></p></div><div><h3 data-i18n="footer.quickLinks"></h3><nav><a href="#about" data-i18n="nav.about"></a><a href="#programs" data-i18n="nav.programs"></a><a href="#schedule" data-i18n="nav.schedule"></a><a href="#faq" data-i18n="nav.faq"></a></nav></div><div><h3 data-i18n="footer.contactTitle"></h3><div data-footer-contacts></div></div></div><div class="wrap footer-bottom"><span data-i18n="footer.rights"></span><span class="copyright" data-i18n="footer.copyright"></span><a href="#top" data-i18n="footer.backToTop"></a></div></footer>
+
+  <div class="whatsapp-fab"><button class="fab-button" aria-expanded="false" aria-controls="wa-panel"><span class="wa-symbol">◔</span><span data-i18n="whatsappFab.label"></span></button><div class="wa-panel" id="wa-panel" aria-hidden="true"><div class="wa-panel-head"><strong data-i18n="whatsappFab.title"></strong><button aria-label="Close" data-i18n-aria="whatsappFab.close">×</button></div><div data-wa-fab-options></div></div></div>
+  <script src="assets/js/content.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>
